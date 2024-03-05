@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101229863953",
+    "project_id": "bdmascota-14318",
+    "storage_bucket": "bdmascota-14318.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101229863953:android:51dcd995aa91bee1913db0",
+        "android_client_info": {
+          "package_name": "com.example.adopta"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ3bIJK6CMWmix4NRvuT3WBXbAaOt2XXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
