@@ -26,7 +26,7 @@ class MyHomeSlider extends StatelessWidget {
                     
                     children:<Widget> [
                       SizedBox(
-                        height: 200,
+                        height: 180,
                         width: double.infinity,
                         child: PageView.builder(
                           onPageChanged: onChange,

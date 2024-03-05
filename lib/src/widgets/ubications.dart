@@ -1,7 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/widgets.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 //import 'package:google_maps_flutter/google_maps_flutter.dart';
@@ -47,7 +45,8 @@ static const LatLng destination = LatLng(-14.070227677127328, -75.72564744973064
           initialCameraPosition: 
           CameraPosition(
             target: sourceLocation,
-            zoom: 40,
+            zoom: 15,
+
             ),
           ),
         

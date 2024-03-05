@@ -3,9 +3,7 @@ import 'package:adopta/src/componentes/home_appbar.dart';
 import 'package:adopta/src/componentes/home_slider.dart';
 import 'package:adopta/src/componentes/mascotasGdV.dart';
 import 'package:adopta/src/constants/colors.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 
 class MyHomePage extends StatefulWidget {
@@ -58,7 +56,6 @@ class homePage extends State<MyHomePage> {
                     categoriasbar(),
                 
                     const SizedBox(height: 15,),
-
                     // Container(
                     //   padding: const EdgeInsets.only(left: 15),
                     //   child: const Text("Mira a los angelitos", 

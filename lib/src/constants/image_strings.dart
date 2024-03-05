@@ -17,3 +17,4 @@ const String iconcat = "assets/images/iconcat.png";
 const String iconconejo = "assets/images/iconconejo.png";
 const String iconave = "assets/images/iconave.png";
 const String iconotros = "assets/images/iconotros.png";
+const String perrito = "assets/images/perro.jpg";
