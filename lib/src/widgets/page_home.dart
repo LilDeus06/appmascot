@@ -1,7 +1,7 @@
 import 'package:adopta/src/constants/colors.dart';
+import 'package:adopta/src/widgets/ViewSearch.dart';
+import 'package:adopta/src/widgets/ViewUser.dart';
 import 'package:adopta/src/widgets/home.dart';
-import 'package:adopta/src/widgets/profile.dart';
-import 'package:adopta/src/widgets/search.dart';
 import 'package:adopta/src/widgets/ubications.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
@@ -20,9 +20,9 @@ class _HomeAPPState extends State<HomeAPP> {
   int _selectedIndex = 0;
   static const List<Widget> _widgetOptions = <Widget>[
     MyHomePage(),
-    MySearch(),
+    ViewSearch(),
     MyUbication(),
-    MyProfile(),
+    ViewUser(),
   ];
   @override
   Widget build(BuildContext context) {
